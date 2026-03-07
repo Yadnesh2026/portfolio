@@ -801,18 +801,14 @@ body,html{
 }
 
 
-
-
-
-
 @media (max-width: 768px) {
 
     /* NAV */
-    .nav { width: 100%; overflow: hidden; padding: 0; }
+    .nav { width: 100vw; overflow: hidden; padding: 0; box-sizing: border-box; }
     .navleft { padding-left: 0.8rem; }
-    .navleft a { font-size: 11px; padding-right: 0.6rem; }
-    .navright { padding-right: 0.8rem; font-size: 15px; }
-    .navright a { padding-left: 1rem; }
+    .navleft a { font-size: 10px; padding-right: 0.5rem; }
+    .navright { padding-right: 0.8rem; font-size: 14px; }
+    .navright a { padding-left: 0.8rem; }
 
     /* HERO */
     .profile { flex-direction: column; height: auto; padding: 15vh 2rem 3rem; align-items: center; text-align: center; gap: 2rem; }
