@@ -1,11 +1,16 @@
 body,html{
-    width: 100%;
+    /* width: 100%; */
+    max-width: 100%;
     margin: 0;
     padding: 0;
     font-family: 'Satoshi';
     background: linear-gradient(135deg, #0a0a0a, #0d1b2a, #1a1a2e);
     min-height: 100vh;
     scroll-behavior: smooth;
+}
+.main {
+    overflow-x: hidden;
+    max-width: 100%;
 }
 .nav{
     position: fixed;
