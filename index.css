@@ -799,65 +799,132 @@ body,html{
     color: #4f9eff;
     opacity: 1;
 }
-
 @media (max-width: 768px) {
 
-    .profilename h1 { font-size: 10vw; }
-    .profilename p { font-size: 3.5vw; }
-    .profile { flex-direction: column; height: auto; padding: 15vh 2rem 3rem; }
-    .profileimage img { width: 180px; height: 180px;}
-
-    .summ p { font-size: 3vw; }
-    .summ h1 { font-size: 4.5vw; }
-
-    .journey { grid-template-columns: 1fr; padding: 2rem; }
-    .journey-title { font-size: 6vw; }
-    .section-title { font-size: 4vw; }
-    .timeline-content h2 { font-size: 4vw; }
-    .timeline-content h3 { font-size: 3.5vw; }
-    .timeline-content p { font-size: 3vw; }
-    .timeline-year { font-size: 2.5vw; }
-    .timeline-tag { font-size: 2vw; }
-
-    .skills { padding: 3rem 2rem; }
-    .skills-title { font-size: 6vw; }
-    .bento-grid { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 100px; }
-    .bento-big { grid-column: span 2; }
-    .bento-tall { grid-row: span 1; }
-    .bento-wide { grid-column: span 2; }
-    .bento-item span { font-size: 2.5vw; }
-    .bento-item p { font-size: 2vw; }
-    .bento-item i { font-size: 1.5rem; }
-    .bento-big i { font-size: 2rem; }
-    .additional-title { font-size: 2.5vw; }
-    .add-skill { font-size: 2.5vw; }
-
-    .projects { padding: 2rem; }
-    .projects-title { font-size: 6vw; }
-    .project-item { grid-template-columns: 50px 1fr; gap: 1rem; }
-    .project-header h2 { font-size: 4vw; }
-    .project-desc { font-size: 3vw; }
-    .project-points li { font-size: 2.5vw; }
-    .project-stack span { font-size: 2vw; }
-    .project-links a { font-size: 2.5vw; }
-    .project-tag { font-size: 2vw; }
-    .flip-front { font-size: 6vw; }
-
-    .cert-title { font-size: 6vw; }
-    .cert-name { font-size: 3vw; }
-    .cert-issuer { font-size: 2vw; }
-    .cert-link { font-size: 2.5vw; }
-
-    .contact { grid-template-columns: 1fr; padding: 3rem 2rem; gap: 2rem; }
-    .contact-title { font-size: 8vw; }
-    .contact-tag { font-size: 2.5vw; }
-    .contact-desc { font-size: 3vw; }
-    .contact-detail p { font-size: 3vw; }
-    .contact-detail span { font-size: 2vw; }
-
-    .footer { font-size: 2.5vw; }
-
+    /* NAV */
     .navleft a { font-size: 12px; padding-right: 0.8rem; }
     .navleft { padding-left: 1rem; }
     .navright { padding-right: 1rem; font-size: 16px; }
+
+    /* HERO */
+    .profile{
+        flex-direction: column;
+        height: auto;
+        padding: 15vh 2rem 3rem;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+    }
+    .profilename{
+        align-self: center;
+    }
+    .profilename h1{
+        font-size: 11vw;
+        line-height: 1.1;
+    }
+    .profilename h1:nth-child(2){
+        padding-left: 0; /* 👈 remove indent on mobile */
+    }
+    .profilename p{
+        font-size: 3.5vw;
+        margin-top: 1.5rem;
+    }
+    .profileimage img{
+        width: 200px;
+        height: 200px;
+    }
+
+    /* SUMMARY */
+    .summ{
+        margin: 0 1rem;
+    }
+    .summ h1 { font-size: 5vw; }
+    .summ p { font-size: 3.5vw; }
+
+    /* JOURNEY */
+    .journey{
+        grid-template-columns: 1fr;
+        padding: 2rem 1.5rem;
+    }
+    .journey-title { font-size: 7vw; }
+    .section-title { font-size: 4.5vw; }
+    .timeline-content h2 { font-size: 4.5vw; }
+    .timeline-content h3 { font-size: 3.5vw; margin-top: -1rem; }
+    .timeline-content p { font-size: 3.5vw; }
+    .timeline-year { font-size: 3vw; }
+    .timeline-tag { font-size: 2.5vw; }
+
+    /* SKILLS */
+    .skills { padding: 2rem 1.5rem; }
+    .skills-title { font-size: 7vw; margin-bottom: 2rem; }
+    .bento-grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 100px;
+        gap: 0.8rem;
+    }
+    .bento-big{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    .bento-big i { font-size: 2.5rem; }
+    .bento-big span { font-size: 4vw; }
+    .bento-big p { font-size: 2.5vw; }
+    .bento-tall { grid-row: span 1; }
+    .bento-tall i { font-size: 2rem; }
+    .bento-tall span { font-size: 3.5vw; }
+    .bento-wide { grid-column: span 2; }
+    .bento-item i { font-size: 1.5rem; }
+    .bento-item span { font-size: 3vw; }
+    .bento-item p { font-size: 2.5vw; }
+    .bento-tag { font-size: 2vw; }
+    .additional-title { font-size: 3vw; }
+    .add-skill { font-size: 3vw; padding: 0.4rem 0.8rem; }
+
+    /* PROJECTS */
+    .projects { padding: 2rem 1.5rem; }
+    .projects-title { font-size: 7vw; margin-bottom: 2rem; }
+    .project-item{
+        grid-template-columns: 50px 1fr;
+        gap: 1rem;
+    }
+    .flip-front { font-size: 7vw; }
+    .project-number { width: 50px; height: 50px; }
+    .project-content { padding: 1.5rem; }
+    .project-header{
+        flex-wrap: wrap;
+        gap: 0.8rem;
+    }
+    .project-header h2 { font-size: 4.5vw; }
+    .project-tag { font-size: 2.5vw; }
+    .project-desc { font-size: 3vw; }
+    .project-points li { font-size: 3vw; }
+    .project-stack span { font-size: 2.5vw; }
+    .project-links a { font-size: 3vw; }
+
+    /* CERTIFICATIONS */
+    .certifications { padding: 2rem 1.5rem; }
+    .cert-title { font-size: 7vw; margin-bottom: 2rem; }
+    .cert-row { gap: 1rem; padding: 1.5rem 0; }
+    .cert-logo { width: 45px; height: 45px; }
+    .cert-name { font-size: 3.5vw; }
+    .cert-issuer { font-size: 2.5vw; }
+    .cert-link { font-size: 3vw; }
+    .cert-badge { font-size: 1.5rem; }
+
+    /* CONTACT */
+    .contact{
+        grid-template-columns: 1fr;
+        padding: 2rem 1.5rem;
+        gap: 2rem;
+    }
+    .contact-title { font-size: 9vw; }
+    .contact-tag { font-size: 3vw; }
+    .contact-desc { font-size: 3.5vw; }
+    .contact-item { padding: 1rem 1.2rem; gap: 1rem; }
+    .contact-icon { width: 40px; height: 40px; font-size: 1rem; }
+    .contact-detail p { font-size: 3.5vw; }
+    .contact-detail span { font-size: 2.5vw; }
+
+    /* FOOTER */
+    .footer { font-size: 3vw; padding: 1.5rem; }
 }
