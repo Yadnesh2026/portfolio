@@ -7,6 +7,7 @@ body,html{
     background: linear-gradient(135deg, #0a0a0a, #0d1b2a, #1a1a2e);
     min-height: 100vh;
     scroll-behavior: smooth;
+    overflow-x: hidden; /* 👈 ADD THIS */
 }
 .main {
     overflow-x: hidden;
@@ -367,7 +368,7 @@ body,html{
 /* Projects */
 .projects{
     color: white;
-     padding: 0rem 5rem 3rem 5rem ; 👈 top padding ;
+     padding: 3rem 5rem 3rem 5rem ;
 }
 
 .projects-title{
@@ -816,6 +817,31 @@ body,html{
     .navright a { padding-left: 0.8rem; }
 
     /* HERO */
+    .profile {
+        transform: none !important;
+        left: 0 !important;
+        right: 0 !important;
+        position: relative !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+    .profilename {
+        transform: none !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .profileimage {
+        transform: none !important;
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
     .profile { flex-direction: column; height: auto; padding: 15vh 2rem 3rem; align-items: center; text-align: center; gap: 2rem; }
     .profilename { align-self: center; }
     .profilename h1 { font-size: 11vw; line-height: 1.1; }

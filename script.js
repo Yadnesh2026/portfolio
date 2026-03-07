@@ -1,10 +1,23 @@
 window.addEventListener("load", function () {
 
+    if (window.innerWidth <= 768) {
+    // Disable side animations on mobile
+    gsap.set(".profilename", { x: 0, y: 0 });
+    gsap.set(".profileimage", { x: 0, y: 0 });
+    gsap.set(".profile", { x: 0 });
+}
+
     // ===== LOCOMOTIVE =====
     const scroll = new LocomotiveScroll({
         el: document.querySelector(".main"),
         smooth: true,
-        lerp: 0.08
+        lerp: 0.08,
+        smartphone: {         // 👈 ADD THIS
+        smooth: false
+        },
+        tablet: {             // 👈 ADD THIS
+            smooth: false
+        }
     });
 
     gsap.registerPlugin(ScrollTrigger);
