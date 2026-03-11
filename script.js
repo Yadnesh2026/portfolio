@@ -12,10 +12,10 @@ window.addEventListener("load", function () {
         el: document.querySelector(".main"),
         smooth: true,
         lerp: 0.08,
-        smartphone: {         // 👈 ADD THIS
+        smartphone: {         
         smooth: false
         },
-        tablet: {             // 👈 ADD THIS
+        tablet: {             
             smooth: false
         }
     });
