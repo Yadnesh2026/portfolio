@@ -102,5 +102,5 @@ I am particularly interested in **cloud technologies, DevOps practices, and AI-d
 
 ## ⚡ Fun Fact
 
-I enjoy building practical solutions to real-world problems and continuously challenging myself to learn and improve.
+I enjoy building practical solutions to real-world problems and continuously challenging myself to learn and improve
 
