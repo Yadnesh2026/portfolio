@@ -40,6 +40,34 @@ window.addEventListener("load", function () {
     ScrollTrigger.refresh();
 
 
+    // Scroll-based nav highlighting
+const sections = [
+  { id: 'Home', el: document.querySelector('.profile') },
+  { id: 'about', el: document.querySelector('.journey') },
+  { id: 'skills', el: document.querySelector('.skills') },
+  { id: 'contact', el: document.querySelector('.contact') },
+];
+
+scroll.on("scroll", function({ scroll }) {
+  const scrollY = scroll.y + 200;
+
+  sections.forEach(({ id, el }) => {
+    if (!el) return;
+    const top = el.offsetTop;
+    const bottom = top + el.offsetHeight;
+
+    if (scrollY >= top && scrollY < bottom) {
+      navLinks.forEach(l => l.classList.remove('active'));
+      const activeLink = document.querySelector(`.navleft a[id="${id}"]`);
+      if (activeLink) {
+        activeLink.classList.add('active');
+        moveIndicator(activeLink);
+      }
+    }
+  });
+});
+
+
 
 
     // ===== HERO =====
@@ -169,7 +197,7 @@ document.querySelector('.navleft').appendChild(indicator);
 
 function moveIndicator(el) {
   indicator.style.left = el.offsetLeft + 'px';
-  indicator.style.width = (el.offsetWidth - 32) + 'px'; // 32 = 2rem padding-right
+  indicator.style.width = (el.offsetWidth - 40) + 'px'; // ← change 32 to 40
 }
 
 // Set Home as default active
