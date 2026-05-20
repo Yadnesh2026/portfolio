@@ -159,3 +159,27 @@ window.addEventListener("load", function () {
     })
 
 });
+
+
+// Nav active indicator
+const navLinks = document.querySelectorAll('.navleft a');
+const indicator = document.createElement('div');
+indicator.classList.add('nav-indicator');
+document.querySelector('.navleft').appendChild(indicator);
+
+function moveIndicator(el) {
+  indicator.style.left = el.offsetLeft + 'px';
+  indicator.style.width = (el.offsetWidth - 32) + 'px'; // 32 = 2rem padding-right
+}
+
+// Set Home as default active
+navLinks[0].classList.add('active');
+moveIndicator(navLinks[0]);
+
+navLinks.forEach(link => {
+  link.addEventListener('click', function () {
+    navLinks.forEach(l => l.classList.remove('active'));
+    this.classList.add('active');
+    moveIndicator(this);
+  });
+});
