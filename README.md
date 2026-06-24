@@ -45,6 +45,16 @@ I am particularly interested in **cloud technologies, DevOps practices, and AI-d
 
 ## 🚀 Projects
 
+### 🔹 Connexa — Professional Networking Platform
+
+* Developed a full-stack professional networking platform using the MERN stack with secure authentication and authorization
+* Implemented user profiles, connection requests, post creation, likes, comments, and personalized activity feeds
+* Built 10+ RESTful APIs for user management, networking features, content interactions, and notifications
+* Utilized Redux for efficient state management and seamless data flow across the application
+* Designed responsive and reusable React components to ensure a smooth user experience across devices
+* Integrated real-time updates and optimized backend performance through efficient database queries
+* Applied modular architecture, authentication workflows, and production-ready development practices
+
 ### 🔹 SynapseAI — AI Conversational Web App
 
 * Built a real-time AI chat application using MERN stack with secure session-based authentication
