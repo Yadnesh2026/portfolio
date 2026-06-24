@@ -10,7 +10,7 @@ Hi, I'm **Yadnesh Vidulkar**, a final-year B.Tech student in Information Technol
 
 I am a **full-stack developer (MERN stack)** with a strong interest in building scalable, efficient, and user-centric applications. My work focuses on developing robust backend systems, designing responsive interfaces, and integrating modern technologies to solve real-world problems.
 
-I am particularly interested in **cloud technologies, DevOps practices, and AI-driven applications**, and I continuously strive to expand my skill set while applying best practices in software development.
+I am particularly interested in **cloud technologies, DevOps practices, and AI-driven applications**, and I continuously strive to expand my skill set while applying best practices in software development
 
 
 ---
