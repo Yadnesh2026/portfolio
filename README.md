@@ -13,6 +13,9 @@ I am a **full-stack developer (MERN stack)** with a strong interest in building 
 I am particularly interested in **cloud technologies, DevOps practices, and AI-driven applications**, and I continuously strive to expand my skill set while applying best practices in software development
 
 
+
+
+
 ---
 
 ## 🛠️ Tech Stack
