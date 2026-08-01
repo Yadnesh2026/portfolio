@@ -93,8 +93,6 @@ I am particularly interested in **cloud technologies, DevOps practices, and AI-d
 * 💻 Building strong skills as a **Software Developer (Full-Stack / MERN)**
 * ☁️ Learning **Cloud & DevOps** (AWS, deployment, scalability)
 * 🤖 Exploring **AI + Data Science integration** in real-world applications
-
-
 ---
 
 
