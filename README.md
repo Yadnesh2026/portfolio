@@ -59,6 +59,8 @@ I am particularly interested in **cloud technologies, DevOps practices, and AI-d
 * Optimized MongoDB queries using indexing & aggregation (↑ ~15% performance)
 * Designed responsive React chat UI with auto-scroll, loading states, and error handling
 
+
+
 ### 🔹 SynapseAI — AI Conversational Web App
 
 * Designed and implemented 10+ RESTful APIs using Express.js
