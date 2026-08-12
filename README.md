@@ -1,8 +1,6 @@
 # 🌐 Yadnesh Vidulkar — Portfolio
 
 🚀 Live Portfolio: https://yadneshvidulkar.vercel.app/
-
-
 ---
 ## 👋 About Me
 
