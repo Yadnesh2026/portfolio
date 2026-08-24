@@ -12,13 +12,16 @@ I am a **full-stack developer (MERN stack)** with a strong interest in building 
 
 ### 💻 Languages
 * JavaScript
+* TypeScript
 * Python
+* Java
 * SQL
 
 ### 🌐 Frontend
 * HTML
 * CSS
 * React.js
+* Next.js
 
 ### 🔧 Backend
 * Node.js
@@ -30,9 +33,14 @@ I am a **full-stack developer (MERN stack)** with a strong interest in building 
 
 ### ☁️ Tools & Platforms
 * Git & GitHub
-* AWS (Basics)
 * Postman
 * VS Code
+
+### DevOps Tools
+* Docker
+* CI/CD
+* Kubernetes
+* AWS
 
 ---
 ## 🚀 Projects
