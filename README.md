@@ -9,10 +9,6 @@ Hi, I'm **Yadnesh Vidulkar**, a final-year B.Tech student in Information Technol
 I am a **full-stack developer (MERN stack)** with a strong interest in building scalable, efficient, and user-centric applications. My work focuses on developing robust backend systems, designing responsive interfaces, and integrating modern technologies to solve real-world problems.
 
 ## 🛠️ Tech Stack
-
-
-
-
 ### 💻 Languages
 * JavaScript
 * TypeScript
