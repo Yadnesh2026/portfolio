@@ -42,6 +42,7 @@ I am a **full-stack developer (MERN stack)** with a strong interest in building 
 * AWS
 
 ---
+
 ## 🚀 Projects
 
 ### 🔹 Connexa — Professional Networking Platform
