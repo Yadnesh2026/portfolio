@@ -2,7 +2,7 @@
 
 🚀 Live Portfolio: https://yadneshvidulkar.vercel.app/
 ---
-## 👋 About Me
+##  About Me
 
 Hi, I'm **Yadnesh Vidulkar**, a final-year B.Tech student in Information Technology with a specialization in Data Science.
 
