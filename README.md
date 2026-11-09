@@ -81,9 +81,6 @@ I am a **full-stack developer (MERN stack)** with a strong interest in building 
 * Integrated live stock data APIs for dynamic price updates
 * Designed responsive dashboard with charts, watchlist, and trading interface using React
 
-
-**Tech Stack:** MERN Stack
-
 ---
 
 ### 🔹 Notes API
